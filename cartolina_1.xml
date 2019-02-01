@@ -304,7 +304,7 @@
             <zone xml:id="lineac1_3"  ulx="33" uly="61" lrx="241" lry="372"/>
             <zone xml:id="lineac1_4" ulx="249" uly="20" lrx="286" lry="372" />
             <zone xml:id="lineac1_5" ulx="10" uly="10" lrx="54" lry="44" />
-            <note type="note_retro_prima">Immagine del retro della cartolina con testo scritto</note>
+            <note type="note_facsimile">Immagine del retro della cartolina con testo scritto</note>
             
         </surface>
         
