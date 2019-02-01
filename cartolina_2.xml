@@ -292,7 +292,7 @@
             <zone xml:id="lineac3_3" ulx="35" uly="23" lrx="256" lry="342" />
             <zone xml:id="lineac3_4" ulx="6" uly="140" lrx="30" lry="361" />    
             <zone xml:id="lineac3_5" ulx="327" uly="45" lrx="409" lry="104" />
-            <note type="note_retro">Immagine del retro della cartolina a cui corrisponde un testo</note> 
+            <note type="note_facsimile">Immagine del retro della cartolina a cui corrisponde un testo</note> 
         </surface>
         
         
