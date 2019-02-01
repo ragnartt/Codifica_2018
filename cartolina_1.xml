@@ -293,7 +293,7 @@
         <surface xml:id="front1" start="#fronte_prima_cartolina" type='ff'>
             <graphic  url='7694-023F.jpg' />
             <zone xml:id="line0" ulx="1256" uly="291" lrx="1635" lry="368" />
-            <note  type="nota_Corbella"> Immagine del fronte della cartolina, con raffigurata una donna che legge una lettera d'amore.</note>
+            <note  type="note_prima"> Immagine del fronte della cartolina, con raffigurata una donna che legge una lettera d'amore.</note>
         </surface>
         
         
@@ -304,7 +304,7 @@
             <zone xml:id="lineac1_3"  ulx="33" uly="61" lrx="241" lry="372"/>
             <zone xml:id="lineac1_4" ulx="249" uly="20" lrx="286" lry="372" />
             <zone xml:id="lineac1_5" ulx="10" uly="10" lrx="54" lry="44" />
-            <note type="nota_facsimile">Immagine del retro della cartolina con testo scritto</note>
+            <note type="note_retro_prima">Immagine del retro della cartolina con testo scritto</note>
             
         </surface>
         
