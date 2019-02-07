@@ -1,6 +1,6 @@
 # Codifica_dei_testi_esame
 
-#I moduli della TEI utilizzati nel progetto sono:
+I moduli della TEI utilizzati nel progetto sono:
 -core
 -tei
 -header
