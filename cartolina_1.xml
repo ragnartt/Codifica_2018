@@ -281,29 +281,5 @@
         </back>
     </text>
     
-    
-    
-    
-    <facsimile>
-        
-        <surface xml:id="front1" start="#fronte_prima_cartolina" type='ff'>
-            <graphic  url='7694-023F.jpg' />
-            <zone xml:id="line0" ulx="1256" uly="291" lrx="1635" lry="368" />
-            <note  type="nota_Corbella"> Immagine del fronte della cartolina</note>
-        </surface>
-        
-        
-        <surface xml:id="back1" start="#retroprima_cartolina" type="rr">          
-            <graphic url='7694-023R.jpg'  />
-            <zone xml:id="lineac1_1" ulx="401" uly="12" lrx="579" lry="126"  />
-            <zone xml:id="lineac1_2" ulx="297" uly="130" lrx="584" lry="369" />
-            <zone xml:id="lineac1_3"  ulx="33" uly="61" lrx="241" lry="372"/>
-            <zone xml:id="lineac1_4" ulx="249" uly="20" lrx="286" lry="372" />
-            <zone xml:id="lineac1_5" ulx="10" uly="10" lrx="54" lry="44" />
-            <note type="nota_facsimile">Immagine del retro della cartolina con testo.</note>
-            
-        </surface>
-        
-        
-    </facsimile>
+
 </TEI>
