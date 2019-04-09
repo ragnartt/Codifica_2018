@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="stile.xslt"?>
+<!DOCTYPE teiCorpus SYSTEM "documentoDTD.dtd">
+
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                <title xml:id="titolo_corpus">Cartoline dalla grande guerra - Edizione digitale</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt>
+                    <resp>Trascrizione di:</resp>
+                    <name xml:id="FC">Federico Carnevale</name>
+                </respStmt>
+                
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" xml:id="SP">Comune della Spezia</name>
+                </respStmt>
+                
+            </titleStmt>
+            
+            <editionStmt xml:id="resp_progetto">
+                <edition>Studenti di Informatica Umanistica, Università di Pisa
+                    <!-- COMPILAZIONE -->
+                    <date>2019</date>
+                </edition>
+                
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Codificato da:</resp>
+                    <name ref="#FC">Federico Carnevale</name>
+                </respStmt>
+                
+                <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                <respStmt>
+                    
+                    <resp>Compilatore</resp>
+                    <name xml:id="TC">Tommaso Castagneto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name xml:id="ER">E. Ratti</name>
+                </respStmt>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Disponibile solo con licenza</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+           
+            <sourceDesc>
+ 
+                <msDesc>
+
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale
+                        </repository>
+                    </msIdentifier>
+
+                    
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+      
+        <encodingDesc>
+            <p>
+            <note n="1">Codifica e trascrizione in formato digitale di due cartoline del periodo della prima guerra mondiale e conservate nel museo etnografico di La Spezia.</note>
+            <note n="2">Scritte rispettivamente da Giovanni Coliola e dalla famiglia Corsini e spedite ad Oliva Turtura</note>
+            </p>
+        </encodingDesc>
+    </teiHeader>
+    <xi:include href="cartolina_uno.xml" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <xi:fallback> <p>Cartolina 23 mancante</p> </xi:fallback>
+    </xi:include>
+    
+    <xi:include href="cartolina_due.xml" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <xi:fallback> <p>Cartolina 60 mancante</p> </xi:fallback>
+    </xi:include>
+</teiCorpus>

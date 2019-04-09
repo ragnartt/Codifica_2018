@@ -1,0 +1,92 @@
+h1 {
+    color:white;
+    text-align: center;
+}
+h2 {
+    color:white;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    color: green;
+}
+
+header{
+    font-family: calibri;
+    max-height: 80px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 0.1em;
+    padding-bottom: 0.1%;
+    background-color: green  ;
+
+}
+#home{
+    text-align: center;
+    width: 100%;
+}
+.span{
+	display: inline-block;
+}
+img{
+    
+    width: 22%;
+    margin: 10px 1%;
+}
+html{
+	padding: 1.5em;
+}
+.resp_progetto{
+    max-height: 30px;
+    padding-right: 1em;
+}
+#resp p{
+    padding: 1.5em;
+    color: green;
+    font-size:  18;
+    font-family: calibri;
+    font-variant: small-caps;
+
+
+}
+#resp td{
+    font-size:  18;
+    font-family: calibri;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+.jpgContainer {
+    width:46%;
+    display: inline-block;
+    height: 40%;
+    float: right;
+    margin-left: 5%;
+    border-radius: 15px;
+    padding-top: 5%;
+    margin-bottom: 1%;
+}
+.jpgContainer img{
+    width: 280px;
+    max-height: 380px;
+    margin-left: 20%;
+
+    margin-top: 3%;
+    border-radius: 15px; 
+    border: 3px solid green;
+    position: relative;
+} 
+
+.textContainer {
+    font-family: 'calibri', serif;
+    float: left;
+    width: 45%;
+
+    text-align: justify;
+    margin-right: 3%;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    font-size: 1.2em;
+    border-left: 5px ;
+}
+
+

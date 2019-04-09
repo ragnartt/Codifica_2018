@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "documentoDTD.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                <title>Donna con amorino e lettere - Edizione digitale</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt>
+                    <resp>transcription by</resp>
+                    <name ref="#FC">Federico Carnevale</name>
+                </respStmt>
+                
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" ref="#SP">Comune della Spezia</name>
+                </respStmt>
+                
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>Studenti di Informatica Umanistica, Università di Pisa
+                    <!-- COMPILAZIONE -->
+                    <date>2019</date>
+                </edition>
+                
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>encoding by</resp>
+                    <name ref="#FC">Federico Carnevale</name>
+                </respStmt>
+                
+                <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                <respStmt>
+                    
+                    <resp>Compilatore:</resp>
+                    <name ref="#XY2">Tommaso Castagneto</name>
+                    
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name ref="#GP">Giacomo Paolicchi</name>
+                    <name ref="#ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name ref="#ER">E. Ratti</name>
+                </respStmt>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher><orgName>Unipi</orgName></publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Disponibile con licenza</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            
+            <!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+            <notesStmt>
+                <note>Nel retro della cartolina è presente il timbro dell'ufficio postale che risulta illegibile</note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    
+                    <title type="custom" resp="#ES">[Donna con amorino e lettere]</title>
+                    
+                   
+                </bibl>
+                
+                <msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <!-- CODICE IDENTIFICATIVO -->
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_023_001/002</idno>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    
+                    
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp>francobollo - poste italiane - 5 centesimi</stamp>
+                                </support>
+                                
+                                <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    
+                    
+                </msDesc>
+                
+                <!-- NOMI -->
+                
+                <listPerson>
+                    
+                    
+                    <person xml:id="GC">
+                        <persName>
+                            <forename>Giovanni</forename>
+                            <surname>Coliola </surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1">[maggiore]</occupation>
+                        <note></note>
+                    </person>
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <note></note>
+                    </person>
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>
+                
+                
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC"/>
+                    <placeName></placeName>
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                    
+                    <date type="writing" when="1916-12-7">1916/12/7</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#OT"/>
+                    <placeName>
+                        <address>
+                            <addName>Via Gerolamo Rossi - 58</addName>
+                            <addrLine>Ravenna</addrLine>
+                            <country>Italia</country>
+                        </address>
+                    </placeName>
+                </correspAction>
+               
+            </correspDesc>
+            
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Donna e bambino (amorino) e lettere d'amore</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    <facsimile>
+        <surface xml:id="surface_7694-023F">               
+                <graphic url='7694-023F.jpg' width='1060px' height='1663px' n="023F"/>
+        </surface>
+        
+        <surface xml:id="surface_7694-023R">
+        <graphic url='7694-023R.jpg' width='1668px' height='1062px' n="023R" />
+        <zone ulx="923" uly="44" lrx="1049" lry="118" rendition="HotSpot" xml:id="hotspot1_uno"/>
+        <zone ulx="1221" uly="44" lrx="1559" lry="410" rendition="HotSpot" xml:id="hotspot2_uno"/>
+        <zone ulx="1319" uly="16" lrx="1661" lry="376" rendition="HotSpot" xml:id="hotspot3_uno"/>
+        <zone ulx="839" uly="224" lrx="1315" lry="426" rendition="Line" xml:id="line1_uno"/>
+        <zone ulx="829" uly="364" lrx="1593" lry="534" rendition="Line" xml:id="line2_uno" />
+        <zone ulx="839" uly="496" lrx="1661" lry="726" rendition="Line" xml:id="line3_uno"/>
+        <zone ulx="863" uly="690" lrx="1659" lry="1014" rendition="Line" xml:id="line4_uno" />
+        <zone ulx="803" uly="50" lrx="837" lry="984" rendition="HotSpot" xml:id="hotspot4_uno"/>
+        <zone ulx="751" uly="1014" lrx="909" lry="1060" rendition="HotSpot" xml:id="hotspot5_uno"/>
+        <zone ulx="587" uly="184" lrx="817" lry="720" rendition="Line" xml:id="line5_uno"/>
+        <zone ulx="203" uly="66" lrx="533" lry="1012" rendition="Line" xml:id="line6_uno"/>
+        </surface>
+    </facsimile>
+    
+    <!-- DEFINIZIONE -->
+    <text type="cartolina" xml:id="text_uno" xml:lang="ita">
+        <!-- TRASCRIZIONE -->
+        <body>
+            <div type="fronte" facs="#surface_7694-023F">
+                <figure>
+                    <graphic url="7694-023F.jpg" />
+                    <figDesc>Donna e bambino (amorino) e lettere d'amore</figDesc>
+                    <head>Donna con amorino e lettere</head>
+                </figure>
+            </div>
+            <div facs="#surface_7694-023R" type="retro">
+                <div type="message">
+                    <p>
+                        <lb facs="#line5_uno"/>
+                       
+                       <placeName>li</placeName><date when="1916/12/7">7/12/1916</date>
+                        <lb facs="#line6_uno"/>
+                        <hi rend="Line">
+                            <name type="nick">Giovannino</name>
+                        </hi>
+                    </p>
+                    
+                </div>
+                
+                <div type="destination">
+                    
+                    <p>
+                        <!-- stamps -->
+                        <stamp type="postmark" facs="#hotspot1_uno"> 
+                            <unclear reason="illegibile">scritture dentro al timbro</unclear>
+                            
+                        </stamp>
+                        <stamp type="postage" facs="#hotspot2_uno">francobollo poste italiane - 5 centesimi</stamp>
+                    </p>
+                    
+                    <p>
+                        <address>
+                            <lb facs="#line1_uno"/>
+                            <addrLine>
+                                <choice>
+                                    <abbr>G.<hi rend="line">ma</hi></abbr>
+                                    <expan>Gentiissima</expan>
+                                </choice>
+                                <choice>
+                                    <abbr>Sig.<hi rend="sup">na</hi></abbr>
+                                    <expan>Signorina</expan>
+                                </choice>
+                            </addrLine>
+                            <lb facs="#line2_uno"/>
+                            <addrLine><persName ref="#OT">Olivia Turtura </persName></addrLine>
+                            <lb facs="line3_uno"/>
+                            <addrLine>Via Girolamo Rossi 58 </addrLine>
+                            <lb facs="line4_uno"/>
+                            <addrLine> <placeName ref="#RV">Ravenna</placeName></addrLine>
+                            
+                        </address>
+                    </p>
+                </div>
+                <div type="remaining">
+                    <p>
+                        <stamp type="catalogue_id" facs="hotspot3_uno">23</stamp>
+                        <note>Numero identificativo della cartolina all'interno del catalogo in cui è raccolto</note>
+                    </p>
+                    <p>
+                        <stamp type="typography" facs="#hotspot4_uno"></stamp>
+                        <note>Riga che dovrebbe separare la parte riservata al messaggio e quella relativa all'indirizzo di destinazione. Stampata dal produttore della cartolina.</note>
+                    </p>
+                    <p>
+                        <stamp type="typography" facs="hotspot5_uno">798-4</stamp>
+                        <note>Nuemro progressivo nella stampa della cartolina</note>
+                    </p>
+                </div>
+                
+            </div>
+        </body>
+    </text>
+</TEI>
